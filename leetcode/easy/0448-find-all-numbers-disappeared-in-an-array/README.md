@@ -39,9 +39,9 @@ Output: [2]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.2 MB  
-**Submitted:** 2026-08-30T16:41:27.975Z  
+**Runtime:** 6 ms (beats 84.38%)  
+**Memory:** 67.1 MB (beats 63.46%)  
+**Submitted:** 2026-08-30T16:41:34.311Z  
 
 ```java
 import java.util.ArrayList;
