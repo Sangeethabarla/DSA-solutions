@@ -4,16 +4,28 @@
 
 ## Problem
 
-_Description not available._
+### Fill in the Blank MCQ - Using int in Java
+
+In this task, you need to assign a valid `int` value to represent the car's speed. Complete the following code:
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int speed = __ ; // Assign a valid int value
+        System.out.println("Car Speed: " + speed);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T16:46:31.090Z  
+**Submitted:** 2026-08-31T16:46:40.061Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         // Declare and assign an int variable
