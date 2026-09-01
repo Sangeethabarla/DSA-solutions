@@ -1,11 +1,11 @@
 class Codechef {
-    public static void main(String[] args) {
-        // Step 3: Declare and assign rating values
-        float currentRating = 4.7f;  // Current rating of the video
-        float maxRating = 5.0f;  // Maximum possible rating
-
-        // Step 5: Print the ratings
-        System.out.println("Current Video Rating: " +currentRating);
-        System.out.println("Maximum Possible Rating: " + maxRating);
+    public static void main (String[] args) {
+        // Declare and assign values
+        float fuelEfficiency=18.5f;
+        int distanceCovered=150;
+        
+        // Print the values
+        System.out.println("Fuel Efficiency: " + fuelEfficiency + " km/l");
+        System.out.println("Distance Covered: " + distanceCovered + " km");
     }
 }
