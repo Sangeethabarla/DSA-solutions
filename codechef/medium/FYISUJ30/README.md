@@ -4,28 +4,40 @@
 
 ## Problem
 
-_Description not available._
+### Fuel Efficiency Calculator
+
+Write a program to store and track fuel efficiency and distance covered for a vehicle.
+Since fuel efficiency includes decimals, use `float`, while distance is a whole number, so use `int`.
+
+ **Expected Output:** 
+
+```
+Fuel Efficiency: 18.5 km/l  
+Distance Covered: 150 km  
+
+```
+
+Run the code, modify values, and explore different driving conditions!
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-01T06:57:37.079Z  
+**Submitted:** 2026-09-01T06:58:21.390Z  
 
 ```java
 class Codechef {
-    public static void main(String[] args) {
-        // Step 3: Declare and assign rating values
-        float currentRating = 4.7f;  // Current rating of the video
-        float maxRating = 5.0f;  // Maximum possible rating
-
-        // Step 5: Print the ratings
-        System.out.println("Current Video Rating: " +currentRating);
-        System.out.println("Maximum Possible Rating: " + maxRating);
+    public static void main (String[] args) {
+        // Declare and assign values
+        float fuelEfficiency=18.5f;
+        int distanceCovered=150;
+        
+        // Print the values
+        System.out.println("Fuel Efficiency: " + fuelEfficiency + " km/l");
+        System.out.println("Distance Covered: " + distanceCovered + " km");
     }
 }
-
 ```
 
 ---
