@@ -4,16 +4,31 @@
 
 ## Problem
 
-_Description not available._
+### Declaring Multiple Variables
+
+Which of the following correctly declares multiple variables of type double in a single statement?
+
+```
+public class Codechef{
+    public static void main(String[] args) {
+        __ temperature1 = 25.5, temperature2 = 30.8, temperature3 = 22.4;
+
+        System.out.println("Temperature 1: " + temperature1);
+        System.out.println("Temperature 2: " + temperature2);
+        System.out.println("Temperature 3: " + temperature3);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T05:01:48.514Z  
+**Submitted:** 2026-09-03T05:01:56.606Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         // Declaring multiple int variables in one statement
