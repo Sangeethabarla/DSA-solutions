@@ -21,7 +21,7 @@ Converted Age (Double): 25.0
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-05T16:00:08.681Z  
+**Submitted:** 2026-09-06T14:35:15.450Z  
 
 ```java
 class Codechef {
