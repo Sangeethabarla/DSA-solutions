@@ -20,7 +20,7 @@ Sum: 15
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T12:15:54.426Z  
+**Submitted:** 2026-09-08T12:15:57.707Z  
 
 ```java
 class Codechef {
