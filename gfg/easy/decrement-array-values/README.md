@@ -25,7 +25,7 @@ Explanation: Just decrement the numbers by 1.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T12:53:09.101Z  
+**Submitted:** 2026-09-09T12:52:46.100Z  
 
 ```java
 class Solution {
