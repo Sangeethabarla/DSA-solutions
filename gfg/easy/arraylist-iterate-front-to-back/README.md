@@ -30,7 +30,7 @@ Explanation: Simply print the elements.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T13:02:25.827Z  
+**Submitted:** 2026-09-09T13:02:29.727Z  
 
 ```java
 class Solution {
