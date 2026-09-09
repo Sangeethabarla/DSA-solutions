@@ -1,9 +1,7 @@
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
         Set<String>s=new HashSet<>(Arrays.asList(banned));
-        String[] words = paragraph.replaceAll("[^a-zA-Z]", " ").toLowerCase().split("\\s+");
-
-
+        String[] words=paragraph.replaceAll("[^a-zA-Z]", " ").toLowerCase().split("\\s+");
         HashMap<String,Integer>hm=new HashMap<>();
         for(String word:words){
             if(!s.contains(word)){
@@ -19,8 +17,6 @@ class Solution {
             }
         }
         return maxword;
-
-
 
     }
 }
