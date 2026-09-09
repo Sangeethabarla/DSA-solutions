@@ -47,9 +47,9 @@ Output: "a"
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms  
-**Memory:** 42.7 MB  
-**Submitted:** 2026-09-09T12:45:49.183Z  
+**Runtime:** 20 ms (beats 14.97%)  
+**Memory:** 45.6 MB (beats 6.82%)  
+**Submitted:** 2026-09-09T12:45:58.437Z  
 
 ```java
 class Solution {
