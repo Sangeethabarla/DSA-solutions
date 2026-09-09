@@ -47,17 +47,15 @@ Output: "a"
 ## Solution
 
 **Language:** Java  
-**Runtime:** 19 ms (beats 23.00%)  
-**Memory:** 45.3 MB (beats 24.80%)  
-**Submitted:** 2026-09-09T12:32:40.226Z  
+**Runtime:** 1 ms  
+**Memory:** 42.7 MB  
+**Submitted:** 2026-09-09T12:45:49.183Z  
 
 ```java
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
         Set<String>s=new HashSet<>(Arrays.asList(banned));
-        String[] words = paragraph.replaceAll("[^a-zA-Z]", " ").toLowerCase().split("\\s+");
-
-
+        String[] words=paragraph.replaceAll("[^a-zA-Z]", " ").toLowerCase().split("\\s+");
         HashMap<String,Integer>hm=new HashMap<>();
         for(String word:words){
             if(!s.contains(word)){
@@ -73,8 +71,6 @@ class Solution {
             }
         }
         return maxword;
-
-
 
     }
 }
