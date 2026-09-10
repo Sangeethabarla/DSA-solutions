@@ -4,26 +4,14 @@
 
 ## Problem
 
-### Tracking Daily Exercise
-
-Write a program to calculate the total number of exercises completed today using the given variables.
-Use addition (+) operators and print the final count to verify the result.
-
- **Expected Output** 
-
-```
-90
-
-```
-
-Write the code and click on the "Submit" button to see the output.
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T13:07:57.954Z  
+**Submitted:** 2026-09-10T18:13:53.309Z  
 
 ```java
 class Codechef {
