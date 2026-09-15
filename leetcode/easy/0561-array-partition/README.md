@@ -40,9 +40,9 @@ Explanation: The optimal pairing is (2, 1), (2, 5), (6, 6). min(2, 1) + min(2, 5
 ## Solution
 
 **Language:** Java  
-**Runtime:** 17 ms (beats 80.76%)  
-**Memory:** 49.9 MB (beats 17.70%)  
-**Submitted:** 2026-09-05T15:59:21.390Z  
+**Runtime:** 17 ms (beats 79.72%)  
+**Memory:** 49.8 MB (beats 34.92%)  
+**Submitted:** 2026-09-15T17:13:21.856Z  
 
 ```java
 import java.util.Arrays;
