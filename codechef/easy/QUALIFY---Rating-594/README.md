@@ -58,7 +58,7 @@ Qualify
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T06:52:39.458Z  
+**Submitted:** 2026-09-20T06:55:54.057Z  
 
 ```java
 import java.util.*;
@@ -70,6 +70,19 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		Scanner sc=new Scanner(System.in);
+		int t=sc.nextInt();
+		while(t-->0){
+		    int x=sc.nextInt();
+		    int a=sc.nextInt();
+		    int b=sc.nextInt();
+		    if((a+2*b)>=x){
+		        System.out.println("Qualify");
+		    }else{
+		        System.out.println("NotQualify");
+		    }
+		}
+		
 
 	}
 }
