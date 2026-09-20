@@ -1,5 +1,3 @@
 -- your code goes here
-select m.member_name,
-    case when count(l.book_id)>3 then 'Frequent Borrower' 
-    else 'Occasional Borrower' end as borrowing_status 
-    from Members m left join  Loans l on m.member_id=l.member_id group by m.member_id,m.member_name;
+
+select publication_year,count(book_id) as num_books,case when count(book_id)>3 then 'Yes' else 'No' end as greater_than_three from Books group by publication_year;
