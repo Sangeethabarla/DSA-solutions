@@ -1,2 +1,2 @@
 -- your code goes here
-select title,author ,case when genre='Computer Science' then 'CS Book' else 'Other Book' end as category from books  ;
+select member_name,case when address like '%Delhi%' then 'Delhi Resident' else 'Other City' end as city_status from Members;
