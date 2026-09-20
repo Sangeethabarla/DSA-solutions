@@ -4,18 +4,31 @@
 
 ## Problem
 
-_Description not available._
+### SQL Case Condition Library Query - 2
+
+ **Case Study:**  A Library Management System is a software application that helps manage the various activities and operations of a library. The primary goal of this system is to efficiently organize and track books, members, loans, and reservations within the library. The library contains books from different genres, and members can borrow and reserve books.
+
+- Data-set for a Library Management System, consisting of five tables: Books Table, Authors Table, Members Table, Loans Table and Reservations Table.
+### Task
+- Display the member names and their corresponding addresses from the "Members" table. If the address contains the word 'Delhi', display 'Delhi Resident', else display 'Other City'.
+- Use CASE WHEN.
+- You can refer to the dataset here: “here”
+### Expected Output Format
+
+ **member_name** 
+ **city_status**
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T07:02:59.416Z  
+**Submitted:** 2026-09-20T07:06:45.917Z  
 
 ```sql
 -- your code goes here
-select title,author ,case when genre='Computer Science' then 'CS Book' else 'Other Book' end as category from books  ;
+select member_name,case when address like '%Delhi%' then 'Delhi Resident' else 'Other City' end as city_status from Members;
+
 ```
 
 ---
