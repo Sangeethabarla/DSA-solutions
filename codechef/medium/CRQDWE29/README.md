@@ -4,16 +4,28 @@
 
 ## Problem
 
-_Description not available._
+### Floating-Point Division in Java
+
+What will be the output of the following Java program?
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        double result = 9.0 / 4;
+        System.out.println("Result: " + result);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T13:25:07.618Z  
+**Submitted:** 2026-09-21T13:25:43.058Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         // Declare two floating-point variables to store scores
