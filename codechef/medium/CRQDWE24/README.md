@@ -4,27 +4,32 @@
 
 ## Problem
 
-### Finding Remainders
+### Calculating Remainders Using the Modulus Operator
 
-In this example, we demonstrate how to declare multiple integer variables, use the modulus operator (`%`), and print the remainder values in Java.
-The modulus operator finds the remainder when one number is divided by another.
-
- **When executed, the code will show:** 
+What will be the output of the following Java program?
 
 ```
-Remainder when 20 is divided by 6 : 2
-Remainder when 15 is divided by 4 : 3
+class Codechef {
+    public static void main(String[] args) {
+        int num1 = 17;
+        int num2 = 5;
+        int num3 = num1 % num2;
+        num1 = num1 % num3;
+        num2 = num2 % num3;
+        System.out.println(num1 + num2);
+    }
+}
 
 ```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T12:53:07.592Z  
+**Submitted:** 2026-09-27T12:55:51.318Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         // Declare integer variables
