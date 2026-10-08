@@ -34,7 +34,7 @@ Your table is named 'employee' and has the following columns
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T09:20:54.006Z  
+**Submitted:** 2026-10-08T09:07:38.861Z  
 
 ```sql
 /* The Query written in the console is trying to insert data to the table employee.
