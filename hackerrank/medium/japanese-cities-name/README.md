@@ -1,4 +1,4 @@
-# Japanese Cities' Attributes
+# Japanese Cities' Names
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -23,10 +23,10 @@ The **CITY** table is described as follows:
 **Language:** db2  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T04:13:42.916Z  
+**Submitted:** 2026-11-04T04:14:38.811Z  
 
 ```db2
-select * from city where countrycode='JPN';
+select name from city where countrycode='JPN';
 
 ```
 
